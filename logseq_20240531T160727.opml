@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>untitled</title>
+  </head>
+  <body>
+    <outline text="[[Customers/Aegon]] details">
+      <outline text="High Availability Requirements">
+        <outline text="VMaaS Stretch cluster: Not for this customer"/>
+        <outline text="Active/Passive sites.. with failover/replication managed by Zerto"/>
+      </outline>
+      <outline text="Non Standard Elements">
+        <outline text="was thinking of 1 phase power (non standard) vs 3 phase power (standard) as an example"/>
+        <outline text="IAM">
+          <outline text="SSO">
+            <outline text="integration with SailPoint"/>
+          </outline>
+          <outline text="Group Synchronization"/>
+        </outline>
+      </outline>
+      <outline text="Critical Items for Success">
+        <outline text="Clusters have been named by customer, and must match the document to enable a smooth migration."/>
+        <outline text="lorem ipsum"/>
+      </outline>
+      <outline text="PCE Services Utilized">
+        <outline text="BMaaS: No"/>
+        <outline text="VMaaS: Yes"/>
+        <outline text="CaaS: No"/>
+      </outline>
+      <outline text="PCE Customizations">
+        <outline text="IAM"/>
+        <outline text="Is HPE customizing existing roles for this solution?">
+          <outline text="If yes, Details:"/>
+          <outline text="Who is responsible for the work? named teams/groups?"/>
+        </outline>
+        <outline text="Is HPE creating new roles or permissions for this solution?">
+          <outline text="If yes, Details:"/>
+          <outline text="Is HPE integrating with the customer's IdM?"/>
+        </outline>
+        <outline text="If yes, Details:">
+          <outline text="Who is responsible for the work? named teams/groups?"/>
+        </outline>
+        <outline text="Image Management"/>
+      </outline>
+      <outline text="Workload Migration">
+        <outline text="Does the solution include HPE managed migration: Yes">
+          <outline text="Details: (Links, who is performing, named teams/groups?)"/>
+        </outline>
+      </outline>
+      <outline text="Site Summary">
+        <outline text="US Primary - Cedar Rapids Iowa">
+          <outline text="Racks: 4"/>
+          <outline text="Servers">
+            <outline text="38 x M3i.fd"/>
+            <outline text="9 x G3iu.fd"/>
+          </outline>
+          <outline text="Storage">
+            <outline text="2 x Mission Critical Performance Storage (instance type needed)"/>
+          </outline>
+          <outline text="Networking">
+            <outline text="4 x 40GB Uplinks"/>
+            <outline text="Uplink to Cisco XXXXX routers"/>
+            <outline text="Transceivers">
+              <outline text="foo"/>
+              <outline text="bar"/>
+            </outline>
+          </outline>
+          <outline text="Cluster Layout">
+            <outline text="Cluster 1 (name)"/>
+            <outline text="Num of nodes"/>
+            <outline text="Type of nodes"/>
+          </outline>
+          <outline text="US DR - where?">
+            <outline text="details"/>
+          </outline>
+          <outline text="UK Primary - Edinburgh">
+            <outline text="details"/>
+          </outline>
+          <outline text="UK DR - Hamilton">
+            <outline text="details"/>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>
