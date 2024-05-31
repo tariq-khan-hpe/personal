@@ -1,21 +1,21 @@
-- [[Customers/Aegon]] details
-	- High Availability Requirements
+# Customers/Aegon details
+	- ## High Availability Requirements
 		- VMaaS Stretch cluster: Not for this customer
 		- Active/Passive sites.. with failover/replication managed by Zerto
-	- Non Standard Elements
+	- ## Non Standard Elements
 		- was thinking of 1 phase power (non standard) vs 3 phase power (standard) as an example
 		- IAM
 			- SSO
 				- integration with SailPoint
 			- Group Synchronization
-	- Critical Items for Success
+	- ## Critical Items for Success
 		- Clusters have been named by customer, and must match the document to enable a smooth migration.
 		- lorem ipsum
-	- PCE Services Utilized
+	- ## PCE Services Utilized
 		- BMaaS: No
 		- VMaaS: Yes
 		- CaaS: No
-	- PCE Customizations
+	- ## PCE Customizations
 		- IAM
 		- Is HPE customizing existing roles for this solution?
 			- If yes, Details:
@@ -26,11 +26,11 @@
 		- If yes, Details:
 			- Who is responsible for the work? named teams/groups?
 		- Image Management
-	- Workload Migration
+	- ## Workload Migration
 		- Does the solution include HPE managed migration: Yes
 			- Details: (Links, who is performing, named teams/groups?)
-	- Site Summary
-		- US Primary - Cedar Rapids Iowa
+	- ## Site Summary
+		- ### US Primary - Cedar Rapids Iowa
 			- Racks: 4
 			- Servers
 				- 38 x M3i.fd
@@ -47,9 +47,9 @@
 				- Cluster 1 (name)
 				- Num of nodes
 				- Type of nodes
-			- US DR - where?
+		- ### US DR - where?
 				- details
-			- UK Primary - Edinburgh
+		- ### UK Primary - Edinburgh
 				- details
-			- UK DR - Hamilton
+		- ### UK DR - Hamilton
 				- details
